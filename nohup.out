@@ -1,0 +1,1941 @@
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:26)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/tty.usbmodem1411
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+209
+211
+213
+215
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+connected
+Opening serialport /dev/cu.usbmodem1411
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1411
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1411
+205
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1411
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Serialport not open.
+    at SerialPortFactory.SerialPort.close (/Users/exhibits/node_modules/serialport/serialport.js:476:17)
+    at WebSocket.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:82:13)
+    at WebSocket.emit (events.js:129:20)
+    at WebSocket.cleanupWebsocketResources (/Users/exhibits/node_modules/ws/lib/WebSocket.js:904:10)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+205
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Serialport not open.
+    at SerialPortFactory.SerialPort.write (/Users/exhibits/node_modules/serialport/serialport.js:288:17)
+    at WebSocket.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:73:16)
+    at WebSocket.emit (events.js:110:17)
+    at Receiver.ontext (/Users/exhibits/node_modules/ws/lib/WebSocket.js:797:10)
+    at /Users/exhibits/node_modules/ws/lib/Receiver.js:473:18
+    at /Users/exhibits/node_modules/ws/lib/Receiver.js:357:7
+    at /Users/exhibits/node_modules/ws/lib/PerMessageDeflate.js:217:5
+    at afterWrite (_stream_writable.js:361:3)
+    at onwrite (_stream_writable.js:352:7)
+    at WritableState.onwrite (_stream_writable.js:105:5)
+connected
+205
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+205
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Serialport not open.
+    at SerialPortFactory.SerialPort.write (/Users/exhibits/node_modules/serialport/serialport.js:288:17)
+    at WebSocket.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:73:16)
+    at WebSocket.emit (events.js:110:17)
+    at Receiver.ontext (/Users/exhibits/node_modules/ws/lib/WebSocket.js:797:10)
+    at /Users/exhibits/node_modules/ws/lib/Receiver.js:473:18
+    at /Users/exhibits/node_modules/ws/lib/Receiver.js:357:7
+    at /Users/exhibits/node_modules/ws/lib/PerMessageDeflate.js:217:5
+    at afterWrite (_stream_writable.js:361:3)
+    at onwrite (_stream_writable.js:352:7)
+    at WritableState.onwrite (_stream_writable.js:105:5)
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+disconnected
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+connected
+Opening serialport /dev/cu.usbmodem1431
+205
+208
+210
+212
+214
+/Users/exhibits/node_modules/ws/lib/WebSocket.js:214
+    else throw new Error('not opened');
+               ^
+Error: not opened
+    at WebSocket.send (/Users/exhibits/node_modules/ws/lib/WebSocket.js:214:16)
+    at SerialPort.<anonymous> (/Users/exhibits/Desktop/fluidPower/nodeSource/wsServer.js:22:24)
+    at SerialPort.emit (events.js:107:17)
+    at /Users/exhibits/node_modules/serialport/parsers.js:25:17
+    at Array.forEach (native)
+    at Object.parser (/Users/exhibits/node_modules/serialport/parsers.js:24:13)
+    at Object.SerialPort.opts.dataCallback (/Users/exhibits/node_modules/serialport/serialport.js:181:12)
+    at SerialPortFactory.SerialPort._emitData (/Users/exhibits/node_modules/serialport/serialport.js:396:20)
+    at afterRead (/Users/exhibits/node_modules/serialport/serialport.js:372:20)
+    at /Users/exhibits/node_modules/serialport/serialport.js:388:9

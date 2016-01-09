@@ -1,0 +1,33 @@
+menu-item {
+  position: relative;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.menuDropdown {
+  display: none;
+  position: absolute;
+  width: 100px;
+  min-height: 18px;
+  background-color: #ccb;
+  z-index: 100;
+  box-sizing: padding-box;
+}
+
+.menuItem {
+  display: inline-block;
+  height:100%;
+  min-width: 25px;
+  padding-left: 5px;
+}
+
+.menuEntry {
+  height:18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 18px;
+}
+
+.menuEntry:hover {
+  background-color: #998;
+}

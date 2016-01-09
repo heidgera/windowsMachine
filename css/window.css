@@ -1,0 +1,155 @@
+::-webkit-scrollbar {
+  background-color: #ccb;
+  width: 16px;
+  position: relative;
+  right: 3px;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:start {
+    display: block;
+    background-image: url(../img/upArrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:start:active {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url(../img/upArrow.png);
+}
+
+::-webkit-scrollbar-button:vertical:increment:end {
+    display: block;
+    background-image: url(../img/downArrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:vertical:increment:end:active {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url(../img/downArrow.png);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #998;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccb;
+  border: 1px solid transparent;
+  background-clip: content-box;
+  box-shadow:1px 1px 1px .5px rgba(255,255,255,1) inset,  -1px -1px 1px .5px rgba(0,0,0,.5) inset;
+}
+
+win-dow {
+  background-color: #ccb;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top:100px;
+  left:100px;
+  min-width: 300px;
+  min-height: 200px;
+  max-width: 300px;
+  max-height: 200px;
+  height: auto;
+  padding:5px;
+  box-shadow:1px 1px 0 .5px #ccb inset,2px 2px 0 1px rgba(255,255,255,.9) inset,
+    -1px -1px 0 .5px rgba(0,0,0,.25) inset,1px 1px 0 1px black;
+  pointer-events: all;
+}
+
+win-dow > div {
+  width: calc(100% - 8px);
+  position: absolute;
+}
+
+.windowTitle {
+  height: 18px;
+  background-color: #777;
+  color: #fff;
+}
+
+.windowTitle > img{
+  position: relative;
+  display: inline-block;
+  left:2px;
+  top: 2px;
+  height: 14px;
+  width:auto;
+}
+
+.winTitle {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  font-size: 11px;
+  line-height: 18px;
+  top: 0;
+  left: 6px;
+}
+
+.winButton {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 14px;
+}
+
+.winMin {
+  right: 20px;
+  background-image: url('../img/min_up.png');
+}
+
+.winMin:active{
+  background-image: url('../img/min_down.png');
+}
+
+.winClose {
+  right: 2px;
+  background-image: url('../img/close_up.png');
+
+}
+
+.winClose:active{
+  background-image: url('../img/close_down.png');
+}
+
+.winMenu {
+  position: absolute;
+  top:25px;
+  height:18px;
+  padding: 1px;
+}
+
+.winContent {
+  position: absolute;
+  /*top:46px;*/
+  /*flex:1;*/
+  /*height: calc(100% - 69px);*/
+  width: calc(100% - 9px);
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: content-box;
+}
+
+.winFoot {
+  position: absolute;
+  height:18px;
+  bottom:2px;
+}
+
+.winResize {
+  display:inline-block;
+  position: absolute;
+  right:0;
+  bottom:0;
+}
