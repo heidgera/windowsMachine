@@ -1,0 +1,110 @@
+.frameContent {
+  width:100%;
+  /*height: calc(100% - 10px);*/
+  overflow: hidden;
+}
+
+/* Text Edit Styles */
+
+.textBox {
+  padding: 5px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  outline:none;
+  user-select: text;
+  cursor: auto;
+  overflow-y: auto;
+}
+
+/* Explorer styles */
+
+.addressBar {
+  display:block;
+  font-size: 11px;
+  line-height: 22px;
+  margin-left: 5px;
+  height:22px;
+  width:100%;
+}
+
+.addressBar > div {
+  display:inline-block;
+  min-width: 50px;
+}
+
+.addressBox {
+  display:inline-block;
+  background-color: #fff;
+  margin-top: 2px;
+  height: 18px;
+  outline:none;
+  cursor: auto;
+  user-select:text;
+  padding-left: 2px;
+  width: calc(100% - 100px);
+}
+
+/* Powerpoint Styles */
+
+#thumbBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:20%;
+  height:100%;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.slideCont {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 7px;
+}
+
+.slideNum {
+  color: #000;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  vertical-align: top;
+}
+
+.slideCont > img {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height: auto;
+}
+
+.currentSlide {
+  box-sizing: content-box;
+  border: 3px solid blue;
+}
+
+#slideStage {
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  top: 0;
+  left: calc(20% + 5px);
+  width: calc(80% - 5px);
+  height:100%;
+  text-align: center;
+  background-color: #777;
+  overflow-y: auto;
+}
+
+#displayedSlide {
+  position: absolute;
+  top: 50%;
+  left:5%;
+  transform: translate(0, -50%);
+  width: 90%;
+  height: auto;
+  box-shadow:3px 3px 0px 0px #000;
+}

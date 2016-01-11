@@ -141,6 +141,16 @@ win-dow > div {
   box-sizing: content-box;
 }
 
+.winContent > div {
+  height: calc(100% - 7px);
+}
+
+#load {
+  overflow-x: auto;
+  height:100%;
+  width:100%;
+}
+
 .winFoot {
   position: absolute;
   height:18px;

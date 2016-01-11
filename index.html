@@ -6,21 +6,23 @@
     <title>Windows 98</title>
   	<link rel="stylesheet" href="css/style.css"></link>
   	<link rel="stylesheet" href="css/window.css"></link>
-  	<link rel="stylesheet" href="css/textEdit.css"></link>
+  	<link rel="stylesheet" href="css/programs.css"></link>
   	<link rel="stylesheet" href="css/windowMenus.css"></link>
-  	<hard-ware serialport="usbserial">
-  		<out-put id="solenoid" pin="3" type="digital" />
-  		<in-put id="start" type="analog" pin="3" report="30" low="90" hi="986" />
-      <in-put id="end" type="digital" debounce="100" pin="2" />
-  	</hard-ware>
+  	<link rel="stylesheet" href="css/eyeCons.css"></link>
     <config-file file="data/config.xml"></config-file>
   </head>
   <body>
     <div id="background"></div>
     <div id="desktop">
-      <eye-con name='My_Docs' type='folder'></eye-con>
-      <eye-con name='Recycle_Bin' type='folder'></eye-con>
-      <eye-con name='Notepad' type='file'></eye-con>
+      <eye-con name='My_Docs' type='folder'>
+        <!-- <eye-con name='Pictures' type='folder'> -->
+        <eye-con name='present' type='pp'></eye-con>
+      </eye-con>
+      <eye-con name='Recycle_Bin' type='folder'>
+        <eye-con name='Notes' type='txt'></eye-con>
+      </eye-con>
+      <!-- <eye-con name='Notes' type='txt'></eye-con> -->
+      <eye-con name='Explorer' type='exe'></eye-con>
     </div>
     <div id='windows'>
     </div>

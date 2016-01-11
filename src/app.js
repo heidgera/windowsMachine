@@ -8,7 +8,7 @@ if (window.isApp === true) {
   hardwareJS = './hardware.js';
 }
 
-include([hardwareJS,'src/desktop.js'], function() {
+include(['src/desktop.js'], function() {
   var refreshRate = 30;
 
   function timeString() {
@@ -18,7 +18,8 @@ include([hardwareJS,'src/desktop.js'], function() {
     var m = zeroPad(time.getMinutes(), 2);
     var s = zeroPad(time.getSeconds(), 2);
 
-    return ((h<=12)?h:h%12) + ((s%2)?':':'\u2009') + m + ((h>=12)?' PM':' AM');
+    //return ((h<=12)?h:h%12) + ((s%2)?':':'\u2009') + m + ((h>=12)?' PM':' AM');
+    return ((h<=12)?h:h%12) + ':' + m + ((h>=12)?' PM':' AM');
   }
 
   µ('#clock').textContent = timeString();
@@ -31,7 +32,7 @@ include([hardwareJS,'src/desktop.js'], function() {
   var dt = µ('#windows');
 
   document.onmousemove = function(e) {
-    e.preventDefault();
+    //e.preventDefault();
     if (dt.dragged) dt.dragged.drag(e);
   };
 

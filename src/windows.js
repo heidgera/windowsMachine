@@ -76,11 +76,28 @@ include(['src/menuItems.js'], function() {
         _this.hidden = true;
       };
 
+      _this.onClose = function (cont) {
+
+      };
+
       _this.close = function() {
         µ('#winTray').removeChild(_this.tray);
-        µ('head').removeChild(µ('script[window='+_this.name+']'));
-        var cont = _this.content.removeChild(_this.content.firstElementChild);
+        var origin = µ('eye-con[name=' + _this.name + ']');
+
+        µ('head').removeChild(µ('script[window=' + _this.name + ']'));
+        var cont = _this.content.removeChild(µ('.frameContent', _this.content), _this.content);
+
+        _this.onClose(cont);
+
         _this.parentElement.removeChild(_this);
+      }
+
+      _this.save = function(){
+        var node = _this.content.firstElementChild.cloneNode(true);
+        var origin = µ('eye-con[name=' + _this.name + ']');
+        var old = origin.content.getElementsByClassName('frameContent')[0];
+        old.parentElement.insertBefore(node,old);
+        old.parentElement.removeChild(old);
       }
 
       _this.tray.onmousedown = function(e) {
@@ -128,15 +145,19 @@ include(['src/menuItems.js'], function() {
         dt.dragged = _this;
       };
 
+      _this.changeSize = function (wid, hgt) {
+        _this.style.width = wid+'px';
+        _this.style.maxWidth = wid+'px';
+        _this.style.height = hgt+'px';
+        _this.style.maxHeight = hgt+'px';
+      }
+
       _this.drag = function(e) {
         if (_this.dragging) {
           _this.style.left = e.clientX - _this.mouse.x+'px';
           _this.style.top = (e.clientY - _this.mouse.y)+'px';
         } else if (_this.resize) {
-          _this.style.width = (e.clientX + _this.mouse.x)+'px';
-          _this.style.height = (e.clientY + _this.mouse.y)+'px';
-          _this.style.maxWidth = (e.clientX + _this.mouse.x)+'px';
-          _this.style.maxHeight = (e.clientY + _this.mouse.y)+'px';
+          _this.changeSize(e.clientX + _this.mouse.x, e.clientY + _this.mouse.y);
         }
       };
 

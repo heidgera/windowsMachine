@@ -1,14 +1,13 @@
 include([],function () {
   var script = document.currentScript;
   var main = µ('win-dow[name='+µ('|>window',script)+']');
-  console.log('poop');
   var text = µ('#text', main);
   var menu = µ('.winMenu', main);
 
   var file = document.createElement('menu-item');
   file.addTitle('File');
   file.addOption('Save', function() {
-    //main.close();
+    main.save();
   });
 
   file.addOption('Save as...');
@@ -44,4 +43,6 @@ include([],function () {
     text.focused = true;
     console.log('focus');
   };
+
+  text.focus();
 });
