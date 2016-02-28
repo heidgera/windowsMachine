@@ -1,28 +1,57 @@
 .frameContent {
   width:100%;
-  /*height: calc(100% - 10px);*/
+  height: 100%;
   overflow: hidden;
+}
+
+.frameContent > :nth-child(1n+0){
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+}
+
+.leftArrow {
+  width:16px;
+  height:16px;
+  background-image: url(../img/leftArrow.png);
+}
+
+.leftArrow:active {
+  background-image: url(../img/leftArrow_down.png);
+}
+
+.rightArrow {
+  width:16px;
+  height:16px;
+  background-image: url(../img/rightArrow.png);
+}
+
+.rightArrow:active {
+  background-image: url(../img/rightArrow_down.png);
 }
 
 /* Text Edit Styles */
 
 .textBox {
-  padding: 5px;
-  max-width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  margin: 5px;
+  max-width: calc(100% - 5px);
   max-height: 100%;
-  width: 100%;
+  width: calc(100% - 5px);
   height: 100%;
   outline:none;
   user-select: text;
   cursor: auto;
   overflow-y: auto;
+  white-space:pre;
 }
 
 /* Explorer styles */
 
 .addressBar {
   display:block;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 22px;
   margin-left: 5px;
   height:22px;
@@ -46,7 +75,18 @@
   width: calc(100% - 100px);
 }
 
+#load {
+  overflow-x: auto;
+}
+
 /* Powerpoint Styles */
+
+.splash {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
 
 #thumbBar {
   position: absolute;
@@ -79,6 +119,7 @@
   position: relative;
   width: 80%;
   height: auto;
+  margin: 1px;
 }
 
 .currentSlide {
@@ -107,4 +148,210 @@
   width: 90%;
   height: auto;
   box-shadow:3px 3px 0px 0px #000;
+}
+
+/* Calendar Styles */
+
+cal-endar {
+  width:100%;
+  height:100%;
+}
+
+.calendar {
+  width:100%;
+  height: 100%;
+}
+
+.calFrame {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #bbb;
+  border-collapse: collapse;
+}
+
+.calDays {
+  font-size: 12px;
+  min-width: 90px;
+  max-height: 30px;
+  height: 30px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.calDays:first-child, .calDays:nth-child(7n+0){
+  color: #777;
+}
+
+.calFrame tr {
+  /*background-color: #ccb;*/
+}
+
+.calFrame tr td {
+  position: relative;
+  border: 1px solid #bbb;
+  border-collapse: collapse;
+  min-height: 50px;
+  background-color: #fff;
+}
+
+.calFrame tr td:nth-child(7n+0), .calFrame tr td:first-child {
+  background-color: #eee;
+}
+
+.calDate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2px;
+  color: #000;
+  opacity: .375;
+}
+
+.calDate.curMon {
+  opacity: 1;
+}
+
+.dayVents {
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f00;
+  font-size: 12px;
+  margin:2px;
+  text-decoration: underline;
+}
+
+#today {
+  background-color: #ddf;
+}
+
+.calMonthBar {
+  text-align: center;
+  height: 22px;
+}
+
+.calMonthBar :nth-child(n+0){
+  display: inline-block;
+  margin-left:2px;
+  margin-right:2px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.monthName{
+  width: 150px
+}
+
+ev-ent {
+  position: absolute;
+  width:100%;
+  height:100%;
+  visibility: hidden;
+  background-color: #fff;
+  z-index: 100;
+}
+
+ev-ent .evControls {
+  position: relative;
+  width: calc(100% - 20px);
+  background-color: #ccb;
+  padding:10px;
+}
+
+.evControls div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.evButton {
+  width:120px;
+  background-color: #ccb;
+  height:18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.evContent {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.evContent > div{
+  position: relative;
+  left: 20px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.evSubject {
+  position: static;
+  font-weight: bold;
+  width: 50%;
+  height: 18px;
+  border: 1px solid #aaa;
+  padding-left: 5px;
+}
+
+.evTime {
+  font-weight: normal;
+}
+
+.evTime > span{
+  margin-right: 5px;
+}
+
+.evDateTime {
+  display: inline-block;
+  padding-left: 3px;
+  padding-right:3px;
+  height: 18px;
+  min-width: 50px;
+  border: 1px solid #aaa;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.evDetails {
+  width: 100%;
+}
+
+.evDetails > .entryDivider{
+  width: calc(100% - 40px);
+}
+
+.evWhere, .evDesc {
+  margin-top: 20px;
+  height: 18px;
+}
+
+.detailLabel {
+  position: absolute;
+  right: calc(100% - 85px);
+}
+
+.evTextBox {
+  position: absolute;
+  left: 100px;
+  display: inline-block;
+  padding-left: 3px;
+  padding-right:3px;
+  height: 18px;
+  min-width: 200px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.descBox {
+  width:75%;
+  height:200px;
 }

@@ -27,26 +27,27 @@ eye-con > img {
   position: relative;
   white-space: nowrap;
   display: block;
-  font-size: 9pt;
+  font-size: 11px;
+  font-weight: 100;
   margin-top: 3px;
   color: #fff;
 }
 
-.frameContent > eye-con {
+.frameContent > div> eye-con {
   position: static;
   display: inline-block;
   margin: 5px;
 }
 
-.frameContent > eye-con > .iconTitle {
+.frameContent> div > eye-con > .iconTitle {
   white-space: nowrap;
   display: block;
-  font-size: 9pt;
+  font-size: 11px;
   margin-top: 3px;
   color: #000;
 }
 
-.frameContent > .iconSelect {
+.frameContent > div > .iconSelect {
   border-color: rgba(0,0,0, 0.75);
   background-color: rgba(0,0,0, 0.25);
   box-sizing: padding-box;

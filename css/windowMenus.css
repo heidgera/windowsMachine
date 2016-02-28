@@ -1,6 +1,6 @@
 menu-item {
   position: relative;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 18px;
 }
 
@@ -11,7 +11,7 @@ menu-item {
   width: 100px;
   min-height: 18px;
   background-color: #ccb;
-  z-index: 100;
+  z-index: 1000;
   box-sizing: padding-box;
 }
 

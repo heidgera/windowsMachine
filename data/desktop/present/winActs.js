@@ -2,6 +2,10 @@ include([], function() {
   var script = document.currentScript;
   var main = µ('win-dow[name=' + µ('|>window', script) + ']');
 
+  var splash = µ('+img', µ('body'));
+  splash.src = 'img/present/splash.png';
+  splash.className = 'splash';
+
   main.changeSize(720, 480);
 
   main.content.style.backgroundColor = '#ccb';
@@ -33,6 +37,11 @@ include([], function() {
 
   menu.appendChild(edit);
 
+  var show = document.createElement('menu-item');
+  show.addOption('Start');
+
+  menu.appendChild(show);
+
   var slides = main.content.querySelectorAll('.slideCont');
   slides = [].slice.call(slides);
   slides.forEach(function(cur, ind, arr) {
@@ -43,5 +52,10 @@ include([], function() {
       µ('#displayedSlide').src = µ('img',sl).src;
     }
   });
+
+  setTimeout(function () {
+    main.style.visibility = 'visible';
+    µ('body').removeChild(splash);
+  },2000);
 
 });

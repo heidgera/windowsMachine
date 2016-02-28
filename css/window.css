@@ -6,6 +6,8 @@
 }
 
 ::-webkit-scrollbar-button:vertical:decrement:start {
+    width:16px;
+    height:16px;
     display: block;
     background-image: url(../img/upArrow.png);
     background-size: contain;
@@ -20,10 +22,12 @@
 }
 
 ::-webkit-scrollbar-button:vertical:increment:end {
-    display: block;
-    background-image: url(../img/downArrow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+  width:16px;
+  height:16px;
+  display: block;
+  background-image: url(../img/downArrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 ::-webkit-scrollbar-button:vertical:increment:end:active {
@@ -48,6 +52,7 @@
 win-dow {
   background-color: #ccb;
   display: flex;
+  visibility: hidden;
   flex-direction: column;
   position:absolute;
   top:100px;
@@ -64,7 +69,7 @@ win-dow {
 }
 
 win-dow > div {
-  width: calc(100% - 8px);
+  width: calc(100% - 9px);
   position: absolute;
 }
 
@@ -124,7 +129,7 @@ win-dow > div {
 
 .winMenu {
   position: absolute;
-  top:25px;
+  top:20px;
   height:18px;
   padding: 1px;
 }
@@ -136,25 +141,21 @@ win-dow > div {
   /*height: calc(100% - 69px);*/
   width: calc(100% - 9px);
   background-color: #fff;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
+  /*overflow-y: auto;*/
   box-sizing: content-box;
-}
-
-.winContent > div {
-  height: calc(100% - 7px);
-}
-
-#load {
-  overflow-x: auto;
-  height:100%;
-  width:100%;
 }
 
 .winFoot {
   position: absolute;
   height:18px;
   bottom:2px;
+}
+
+.winFoot > div {
+  font-size: 11px;
+  line-height: 18px;
+  margin-left: 3px;
 }
 
 .winResize {

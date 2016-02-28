@@ -14,25 +14,69 @@
   <body>
     <div id="background"></div>
     <div id="desktop">
-      <eye-con name='My_Docs' type='folder'>
-        <!-- <eye-con name='Pictures' type='folder'> -->
+      <!-- <eye-con name='My_Docs' type='folder'>
         <eye-con name='present' type='pp'></eye-con>
-      </eye-con>
+      </eye-con> -->
+      <eye-con name='Decode' type='exe'></eye-con>
       <eye-con name='Recycle_Bin' type='folder'>
-        <eye-con name='Notes' type='txt'></eye-con>
+        <eye-con name='present' type='pp'></eye-con>
       </eye-con>
       <!-- <eye-con name='Notes' type='txt'></eye-con> -->
       <eye-con name='Explorer' type='exe'></eye-con>
+      <eye-con name='Calendar' type='exe'></eye-con>
     </div>
     <div id='windows'>
     </div>
     <div id='menuBar'>
-      <img id='start' src='img/start_up.png'></img>
+      <div id='start'>
+        <!-- <img src='img/start_up.png'></img> -->
+        <div id='startMenu' class='raise'>
+          <div class='startItem' id='logout'>
+            <img src='img/power.png'></img>
+            <span>Log Out...</span>
+          </div>
+        </div>
+      </div>
       <img class='divider' src='img/divider.png'></img>
       <div id='winTray'></div>
       <div id='systemTray' class='inset'>
         <div id='clock'>9:00 PM</div>
       </div>
     </div>
+    <div id='logOutDialog' class='window'>
+      <div class="windowTitle">
+        <div class='winTitle'>Log Off Windows</div>
+      </div>
+      <div id='logOffPrompt'>
+        <img src='img/logOff.png'></img>
+        <span class='logOffText'>Are you sure you want to log off?</span>
+      </div>
+      <div id='logOffControls'>
+        <span id='loYes' class='button'>Yes</span>
+        <span id='loNo' class='button'>No</span>
+      </div>
+    </div>
+    <div id='loginBG'>
+      <div id='logging' class='raise'>
+        <img src='img/winWait.png'></img>
+        <div id='winLoggingIn'>Windows is logging in...</div>
+        <div id='winLoggingOut'>Windows is logging out...</div>
+      </div>
+      <div id='login' class='raise' user='kevorkianstein' pass='E=MCsquared'>
+        <img src='img/login.png'></img>
+        <div class='uName loginInfo'>
+          <span>User name:</span>
+          <span class='inset' id='username'>kevorkianstein</span>
+        </div>
+        <div class='pWord loginInfo'>
+          <span>Password:</span>
+          <span class='inset' id='password' contenteditable></span>
+        </div>
+        <div id='invalid'>Invalid Username or Password; please try again.</div>
+        <div id='loginButtons'>
+          <span id='loginOK' class='button' tabindex="0">OK</span>
+          <span id='loginCancel' class='button' tabindex="0">Cancel</span>
+        </div>
+      </div>
   </body>
 </html>

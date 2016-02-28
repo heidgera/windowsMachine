@@ -8,7 +8,7 @@ if (window.isApp === true) {
   hardwareJS = './hardware.js';
 }
 
-include(['src/desktop.js'], function() {
+include(['src/desktop.js', 'src/calendar.js', 'src/loginScreen.js', 'src/startMenu.js'], function() {
   var refreshRate = 30;
 
   function timeString() {
@@ -19,7 +19,7 @@ include(['src/desktop.js'], function() {
     var s = zeroPad(time.getSeconds(), 2);
 
     //return ((h<=12)?h:h%12) + ((s%2)?':':'\u2009') + m + ((h>=12)?' PM':' AM');
-    return ((h<=12)?h:h%12) + ':' + m + ((h>=12)?' PM':' AM');
+    return ((h <= 12) ? h : h % 12) + ':' + m + ((h >= 12) ? ' PM' : ' AM');
   }
 
   µ('#clock').textContent = timeString();
@@ -40,9 +40,18 @@ include(['src/desktop.js'], function() {
     if (dt.dragged) dt.dragged.release(e);
   };
 
-  document.onkeypress = function(e) {
+  document.onclick = function(e) {
+    if (µ('#start').opened && e.target != µ('#start')) {
+      console.log('close');
+      µ('#start').close();
+    }
+  };
+
+  document.onkeydown = function(e) {
     switch (e.which) {
-      case charCode('s'):
+      case 27:
+
+        //µ('#login').logout();
         break;
       case 32:
         break;

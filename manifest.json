@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Efficient Compression",
-  "short_name": "EffComp",
+  "name": "Windows Machine",
+  "short_name": "Win98",
   "description": "",
-  "version": "0.0.1",
-  "minimum_chrome_version": "38",
+  "version": "0.0.4",
+  "minimum_chrome_version": "34",
 
   "icons": {
     "128": "img/128.png"
@@ -19,5 +19,6 @@
     "background": {
       "scripts": ["background.js"]
     }
-  }
+  },
+  "kiosk_enabled": true
 }

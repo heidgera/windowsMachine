@@ -9,8 +9,9 @@ chrome.app.runtime.onLaunched.addListener(function(launchData) {
     'index.html',
     {
       //id: 'mainWindow',
-      //state: 'fullscreen',
-      innerBounds: {width: 1920, height: 1080},
+      state: 'fullscreen',
+
+      //innerBounds: {width: 1920, height: 1080},
     },
     function(win) {win.contentWindow.isApp = true;}
   );

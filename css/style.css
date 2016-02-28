@@ -23,9 +23,19 @@
   background-color: none;
 }
 
+.button:active {
+  box-shadow:-1px -1px 0 .5px rgba(255,255,255,.75) inset,  1px 1px 0 .5px rgba(0,0,0,.25) inset;
+  background-color: rgba(0,0,0,.5);
+}
+
 .buttonActive {
   box-shadow:-1px -1px 0 .5px rgba(255,255,255,.75) inset,  1px 1px 0 .5px rgba(0,0,0,.25) inset;
   background-color: rgba(0,0,0,.5);
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
 }
 
 body {
@@ -91,26 +101,72 @@ body {
 }
 
 #start {
+  position: relative;
   display: inline-block;
   margin-left: 3px;
   margin-top:3px;
   height: 22px;
-  width: auto;
+  width: 55px;
+  background-image: url(../img/start_up.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#start:active {
+  background-image: url(../img/start_down.png);
+}
+
+#start.pressed {
+  background-image: url(../img/start_down.png);
+}
+
+#startMenu {
+  position: absolute;
+  bottom:100%;
+  left:0;
+  width:200px;
+  min-height: 25px;
+  padding:5px;
+  background-color: #ccb;
+  visibility: hidden;
+}
+
+.startItem {
+  position: relative;
+  padding:3px;
+  height: 25px;
+}
+
+.startItem:hover {
+  background-color: rgba(0,0,0,.5);
+}
+
+.startItem > span{
+  position:absolute;
+  left: 40px;
+  line-height: 25px;
+  font-size: 14px;
 }
 
 #winTray {
+  position: relative;
+  bottom:0;
   display: inline-block;
-  margin-left: 3px;
-  margin-top: 3px;
-  height:22px;
+  padding-left: 3px;
+  height:28px;
   flex: 1;
 }
 
 .trayButton {
-  display: inline-block;
-  margin-right:3px;
   width:120px;
   height:22px;
+  position: relative;
+  top:50%;
+  transform: translate(0,-45%);
+  /*top: 4px;*/
+  left: 3px;
+  display: inline-block;
+  margin-right:3px;
   flex-shrink: 1;
   flex-basis: auto;
   text-overflow: ellipsis;
@@ -129,7 +185,7 @@ body {
 }
 
 #systemTray {
-  position: relative;
+  position: absolute;
   /*flex-shrink: 1;*/
   margin: 3px;
   right:0;
@@ -144,6 +200,136 @@ body {
   right: 0;
   margin-right: 6px;
   line-height: 22px;
-  font-size: 11px;
+  font-size: 12px;
   text-align: right;
+}
+
+#logOutDialog {
+  background-color: #ccb;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 125px;
+  width: 275px;
+  padding:5px;
+  box-shadow:1px 1px 0 .5px #ccb inset,2px 2px 0 1px rgba(255,255,255,.9) inset,
+    -1px -1px 0 .5px rgba(0,0,0,.25) inset,1px 1px 0 1px black;
+  pointer-events: all;
+  visibility: hidden;
+}
+
+#logOutDialog > .windowTitle {
+  background-color: #008;
+}
+
+#logOffPrompt {
+  margin-top:20px;
+  width:90%;
+  position: relative;
+  left:50%;
+  transform: translate(-50%,0);
+  text-align: center;
+}
+
+#logOffPrompt > img {
+  position: relative;
+  left: 0px;
+}
+
+.logOffText {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  font-size: 12px;
+  top:-12px;
+  height:32px;
+  line-height: 32px;
+}
+
+#logOffControls {
+  text-align: center;
+}
+
+#logOffControls > span {
+  display: inline-block;
+  margin:5px;
+  font-size: 12px;
+  padding: 5px;
+  min-width: 75px;
+}
+
+#loginBG {
+  position:fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-color: #369;
+}
+
+#loginBG > div {
+  width: 412px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  padding:2px;
+  background-color: #ccb;
+  transform:translate(-50%,-50%);
+}
+
+#logging > div {
+  font-weight: 100;
+  font-size: 12px;
+  margin: 10px;
+}
+
+#winLoggingOut {
+  display: none;
+}
+
+#login > div {
+  position: relative;
+  font-weight: 100;
+  font-size: 12px;
+  margin: 10px;
+  margin-top:15px;
+}
+
+#login > .loginInfo > span:nth-child(n+2){
+  position: absolute;
+  left: 75px;
+  top:0;
+  width: 60%;
+  height:18px;
+  background-color: #fff;
+  line-height: 18px;
+  padding-left: 5px;
+}
+
+#password {
+  -webkit-text-security: disc;
+  text-security: disc;
+}
+
+#invalid {
+  position: relative;
+  left:75px;
+  visibility: hidden;
+}
+
+#loginButtons {
+  position: relative;
+  left:75px;
+}
+
+#loginButtons > .button {
+  display: inline-block;
+  text-align: center;
+  width:75px;
+  height:22px;
+  font-size: 12px;
+  line-height: 22px;
 }

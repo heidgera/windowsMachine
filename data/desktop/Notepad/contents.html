@@ -1,7 +1,32 @@
-<html>
+<html lang="en">
+<meta charset="utf-8"></meta>
+  <head>
+  	<script src="src/libraries/muse/include.js" main="src/app.js"></script>
+    <title>Windows 98</title>
+  	<link rel="stylesheet" href="css/style.css"></link>
+  	<link rel="stylesheet" href="css/window.css"></link>
+  	<hard-ware serialport="usbserial">
+  		<out-put id="solenoid" pin="3" type="digital" />
+  		<in-put id="start" type="analog" pin="3" report="30" low="90" hi="986" />
+      <in-put id="end" type="digital" debounce="100" pin="2" />
+  	</hard-ware>
+    <config-file file="data/config.xml"></config-file>
+  </head>
   <body>
-    <div class='textBox' id='text' contentEditable>
-
+    <div id="background"></div>
+    <div id="desktopIcons">
+    </div>
+    <div id='windows'>
+      <win-dow name='My Documents'></win-dow>
+      <win-dow name='Recycle Bin'></win-dow>
+      <win-dow name='PowerPoint'></win-dow>
+    </div>
+    <div id='menuBar'>
+      <img id='start' src='img/start_up.png'></img>
+      <img class='divider' src='img/divider.png'></img>
+      <div id='systemTray' class='inset'>
+        <div id='clock'>9:00 PM</div>
+      </div>
     </div>
   </body>
-<html>
+</html>
