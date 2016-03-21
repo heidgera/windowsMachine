@@ -34,17 +34,17 @@ include(['src/libraries/difflib.js'], function() {
   var hist = document.createElement('menu-item');
   hist.addTitle('History');
   hist.addOption('Home', function() {
-    main.navigate('data/drk/home.html');
+    main.navigate('data/drk/home.html', 'www.doctork.com');
   });
 
   hist.addDivider();
   hist.addOption('Recently Visited');
-  hist.addOption('Mad Science Blog', function() {
-    main.navigate('data/drk/error.html');
+  hist.addOption('MadSci Blog', function() {
+    main.navigate('data/drk/error.html', 'www.madblog.com');
   });
 
   hist.addOption('Zombie Recipes', function() {
-    main.navigate('data/drk/error.html');
+    main.navigate('data/drk/error.html', 'www.zombo.com');
   });
 
   menu.appendChild(hist);
@@ -67,7 +67,7 @@ include(['src/libraries/difflib.js'], function() {
   var addBox = µ('+div', address);
   addBox.className = 'addressBox inset';
   addBox.contentEditable = true;
-  addBox.textContent = µ('#load', main).src;
+  addBox.textContent = 'www.doctork.com';
 
   menu.style.height = '42px';
 
@@ -75,7 +75,7 @@ include(['src/libraries/difflib.js'], function() {
 
   main.changeSize(640, 480);
 
-  main.navigate = function(add, local) {
+  main.navigate = function(add, fakeAddress) {
     if (~add.indexOf('http://')) {
       add = add.substring(7);
     }
@@ -84,11 +84,14 @@ include(['src/libraries/difflib.js'], function() {
     if (~add.indexOf('www.labsecurity.com/drk')) add = 'data/drk/video.html';
     else if (comp.ratio() > 0.9) {
       add = 'data/drk/close.html';
+    } else if (add == 'data/drk/home.html') {
+      add = 'data/drk/home.html';
     } else {
       add = 'data/drk/error.html';
     }
 
     µ('#load', main).src = add;
+    if (fakeAddress) addBox.textContent = fakeAddress;
   };
 
   addBox.onkeypress = function(e) {

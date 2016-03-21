@@ -1,19 +1,30 @@
 <html>
   <head>
     <style>
-      body {background-color: #000;}
+      body {
+        background-color: #fff;
+        text-align: center;
+      }
       #beaker   {
-        position: relative;
-        top:25%;
+        display: inline-block;
+        position: absolute;;
+        top:0%;
         width:auto;
-        height:50%;
-        left:40%;
+        height:100%;
+        opacity: .1;
+      }
+      #welcome {
+        color: #aaa;
+        position: absolute;
+        top:20%;
+        left:5%;
+        font-size: 32pt;
       }
     </style>
   </head>
   <body>
     <svg version="1.1" id="beaker" x="0px" y="0px" width="360px" height="576px" viewBox="0 0 360 576"
-        enable-background="new 0 0 360 576" xml:space="preserve" fill="#030" stroke="#1f0" stroke-width='3' transform='scale(.5)'>
+        enable-background="new 0 0 360 576" xml:space="preserve" fill="#dfd" stroke="#0c0" stroke-width='3' transform='scale(.5)'>
         <path d="M72.15,244.627v252c0,19.882,48.353,36,108,36s108-16.118,108-36
         	v-252H72.15z"/>
         <ellipse cx="180.15" cy="240.127" rx="117" ry="40.5"/>
@@ -51,5 +62,6 @@
           <animate dur="2.1s" attributeName="cx" values="150; 200; 150" repeatCount="indefinite" />
         </circle>
       </svg>
+    <div id='welcome'>Type URL into the address bar to navigate.</div>
   </body>
 </html>

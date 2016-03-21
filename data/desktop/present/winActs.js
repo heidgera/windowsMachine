@@ -14,9 +14,10 @@ include([], function() {
 
   var file = document.createElement('menu-item');
   file.addTitle('File');
-  file.addOption('Save', function() {
+  file.addOption('Save');
+  /*file.addOption('Save', function() {
     main.save();
-  });
+  });*/
 
   file.addOption('Save as...');
 
