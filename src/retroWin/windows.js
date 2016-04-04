@@ -1,4 +1,6 @@
-include(['src/menuItems.js'], function() {
+//6 hours
+
+include(['src/retroWin/menuItems.js'], function() {
   var dt = µ('#windows');
   dt.onmousemove = function(e) {
     if (dt.dragged) dt.dragged.drag(e);

@@ -1,3 +1,5 @@
+//2hours
+
 var localStore = null;
 var hardwareJS = '';
 if (window.isApp === true) {
@@ -8,7 +10,7 @@ if (window.isApp === true) {
   hardwareJS = './hardware.js';
 }
 
-include(['src/desktop.js', 'src/calendar.js', 'src/loginScreen.js', 'src/startMenu.js'], function() {
+include(['src/retroWin/desktop.js', 'src/retroWin/calendar.js', 'src/retroWin/loginScreen.js', 'src/retroWin/startMenu.js'], function() {
   var refreshRate = 30;
 
   function timeString() {

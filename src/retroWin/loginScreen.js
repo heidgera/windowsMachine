@@ -46,6 +46,10 @@ include([], function() {
     }
   }
 
+  okBut.onClick = function(){
+    authenticate();
+  }
+
   uBox.onkeydown = function(e) {
     var key = e.which;
     switch (key) {

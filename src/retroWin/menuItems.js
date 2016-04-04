@@ -1,3 +1,5 @@
+//2 hours
+
 include([], function() {
 
   var menuItem = inheritFrom(HTMLElement, function() {

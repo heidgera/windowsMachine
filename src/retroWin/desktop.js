@@ -1,4 +1,6 @@
-include(['src/windows.js'], function() {
+//10 hours
+
+include(['src/retroWin/windows.js'], function() {
   µ('#desktop').nextPosition = {x:20, y:20};
   µ('#desktop').fileVertically = true;
   var hgt = 80;

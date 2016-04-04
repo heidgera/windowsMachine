@@ -1,3 +1,5 @@
+//1 hour
+
 include([], function() {
   var start = µ('#start');
   var menu = µ('#startMenu');
