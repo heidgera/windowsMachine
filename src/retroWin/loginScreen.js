@@ -4,6 +4,9 @@ include([], function() {
   login.pass = µ('|>pass', login);
 
   var uBox = µ('#username');
+
+  var initName = uBox.textContent;
+
   var pBox = µ('#password');
 
   var okBut = µ('#loginOK');
@@ -23,7 +26,7 @@ include([], function() {
     µ('#loginBG').style.visibility = 'visible';
     µ('#winLoggingOut').style.display = 'inline-block';
     µ('#winLoggingIn').style.display = 'none';
-    uBox.textContent = 'kevorkianstein';
+    uBox.textContent = initName;
     pBox.textContent = '';
     setTimeout(function() {
       login.style.visibility = 'visible';
@@ -33,7 +36,7 @@ include([], function() {
   login.wakeup = function() {
     µ('#loginBG').style.visibility = 'visible';
     login.style.visibility = 'visible';
-    uBox.textContent = 'kevorkianstein';
+    uBox.textContent = initName;
     pBox.textContent = '';
     µ('#invalid').style.visibility = 'hidden';
   };
@@ -46,9 +49,9 @@ include([], function() {
     }
   }
 
-  okBut.onClick = function(){
+  okBut.onClick = function() {
     authenticate();
-  }
+  };
 
   uBox.onkeydown = function(e) {
     var key = e.which;
